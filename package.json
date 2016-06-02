@@ -1,0 +1,20 @@
+{
+  "name": "css-modules-test",
+  "version": "0.0.1",
+  "description": "CSS Modules with React and Webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cahamilton/css-modules-test.git"
+  },
+  "keywords": [
+    "css",
+    "modules",
+    "react",
+    "webpack"
+  ],
+  "author": "Carl Hamilton <carlanthonyhamilton@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/cahamilton/css-modules-test/issues"
+  },
+  "homepage": "https://github.com/cahamilton/css-modules-test#readme"
+}

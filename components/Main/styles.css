@@ -1,0 +1,20 @@
+.column {
+  composes: column from '../../stylesheets/common.css';
+  width: 60%;
+  float: left;
+}
+
+.inner {
+  composes: inner from '../../stylesheets/common.css';
+  background: lightblue;
+}
+
+.title {
+  color: dodgerblue;
+  font-size: 2rem;
+}
+
+.text {
+  color: cornflowerblue;
+  font-size: 1rem;
+}

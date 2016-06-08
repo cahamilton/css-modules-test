@@ -1,0 +1,9 @@
+.column {
+  padding: 0 1rem;
+  margin: 0 0 2rem;
+}
+
+.inner {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

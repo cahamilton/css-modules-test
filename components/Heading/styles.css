@@ -1,0 +1,13 @@
+.column {
+  composes: column from '../../stylesheets/common.css';
+}
+
+.inner {
+  composes: inner from '../../stylesheets/common.css';
+  background: palevioletred;
+}
+
+.title {
+  color: darkred;
+  font-size: 3rem;
+}

@@ -17,8 +17,8 @@ function Sidebar({ title, paragraph }) {
       <div className={styles.inner}>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.text}>{paragraph}</p>
-        <pre>./assets/components/sidebar/index.js</pre>
-        <pre>./assets/components/sidebar/styles.css</pre>
+        <pre>./components/Sidebar/index.js</pre>
+        <pre>./components/Sidebar/styles.css</pre>
       </div>
     </aside>
   );

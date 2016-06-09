@@ -8,8 +8,8 @@ function Heading({ title }) {
     <header className={styles.column}>
       <div className={styles.inner}>
         <h1 className={styles.title}>{title}</h1>
-        <pre>./assets/components/heading/index.js</pre>
-        <pre>./assets/components/heading/styles.css</pre>
+        <pre>./components/Heading/index.js</pre>
+        <pre>./components/Heading/styles.css</pre>
       </div>
     </header>
   );

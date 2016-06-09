@@ -16,8 +16,8 @@ function Main({ title, paragraph }) {
       <div className={styles.inner}>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.text}>{paragraph}</p>
-        <pre>./assets/components/main/index.js</pre>
-        <pre>./assets/components/main/styles.css</pre>
+        <pre>./components/Main/index.js</pre>
+        <pre>./components/Main/styles.css</pre>
       </div>
     </main>
   );

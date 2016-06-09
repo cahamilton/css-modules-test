@@ -4,6 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
+
   entry: `${__dirname}/index.js`,
 
   output: {
@@ -35,8 +36,17 @@ module.exports = {
   ],
 
   plugins: [
-    new ExtractTextPlugin('stylesheets/screen.css', { allChunks: true }),
-    new webpack.optimize.UglifyJsPlugin({ mangle: true }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production'),
+      },
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      mangle: true,
+    }),
+    new ExtractTextPlugin('stylesheets/screen.css', {
+      allChunks: true,
+    }),
   ],
 
 };
